@@ -4,5 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Serializer.JSON.lvclass" Type="LVClass" URL="../Serializer.JSON.lvclass"/>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Base64_ByteLUT.vi" Type="VI" URL="../Base64_ByteLUT.vi"/>
+	</Item>
+	<Item Name="Base64_CharSet.vi" Type="VI" URL="../Base64_CharSet.vi"/>
+	<Item Name="Base64_Decode.vi" Type="VI" URL="../Base64_Decode.vi"/>
+	<Item Name="Base64_DecodeAnything.vi" Type="VI" URL="../Base64_DecodeAnything.vi"/>
+	<Item Name="Base64_Encode.vi" Type="VI" URL="../Base64_Encode.vi"/>
+	<Item Name="Base64_EncodeAnything.vi" Type="VI" URL="../Base64_EncodeAnything.vi"/>
+	<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="../Serializer.Base64.lvclass"/>
 </Library>

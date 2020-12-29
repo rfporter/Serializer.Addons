@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Serializer.JSON.lvclass" Type="LVClass" URL="../Serializer.JSON.lvclass"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Serializer.erdosmiller-TOML.lvclass" Type="LVClass" URL="../Serializer.erdosmiller-TOML.lvclass"/>
 </Library>
