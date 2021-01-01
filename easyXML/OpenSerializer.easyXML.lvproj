@@ -12,7 +12,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="unittests" Type="Folder"/>
+		<Item Name="unittests" Type="Folder">
+			<Item Name="JKI-easyXML Test Marshall-Unmarshall.vi" Type="VI" URL="../unittests/JKI-easyXML Test Marshall-Unmarshall.vi"/>
+			<Item Name="Test Cluster.ctl" Type="VI" URL="../../jki-json/unittests/Test Cluster.ctl"/>
+		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="palette helpers" Type="Folder">
 				<Item Name="_easyXML_Marshal.vi" Type="VI" URL="../source/_easyXML_Marshal.vi"/>
